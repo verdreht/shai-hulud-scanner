@@ -1,12 +1,14 @@
 # 🐛 shai-hulud-scanner
 
-Bash script to scan npm packages and subpackages for the infected **Shai Hulud** worm and reports them directly to the console. ⚠️
+Bash script to **scan npm packages** and subpackages for the infected **Shai Hulud** worm. It detects infections, lists affected packages, and reports them directly to the console. ⚠️
+
+**Keywords:** npm security scan, list of infected packages, detect malware, Shai Hulud worm, npm package scan, infected dependencies, vulnerability check, node.js security
 
 ## 🚀 Usage
 
 To run the scanner, you need to provide:
 
-1. A text file containing the list of npm packages to check (`packages.txt`). 📄  
+1. A text file containing the **list of npm packages** to check (`packages.txt`). 📄  
 2. The path to the project directory you want to scan. 📂
 
 Run the script using:
@@ -25,7 +27,14 @@ react
 lodash
 ```
 
-Each line should contain the name of a package you want to check. (Format: package@version)
+Each line should contain the name of a package you want to check. This creates a **list of packages** to scan for infections.
+
+## ✅ Features
+
+- Scans **npm packages and subpackages** for malware.  
+- Generates a **list of infected packages**.  
+- Reports infected packages in the console immediately.  
+- Easy to use on any Node.js project.
 
 ## 🤝 Contributing
 
@@ -43,3 +52,4 @@ Let's keep our projects safe from the Shai Hulud worm together! 💪
 
 - Make sure you have **bash** installed and available in your PATH.  
 - Run the script from a terminal with sufficient permissions to access the project directory.  
+- Ideal for Node.js developers who want to maintain **npm package security**.
